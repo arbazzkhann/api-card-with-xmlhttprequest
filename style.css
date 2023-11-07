@@ -13,8 +13,8 @@ body {
 
 .box {
     background-color: rgb(172, 164, 164);
-    height: 450px;
-    width: 350px;
+    height: 80%;
+    width: 60%;
     border-radius: 15px;
 }
 
