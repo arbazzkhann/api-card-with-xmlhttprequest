@@ -23,6 +23,7 @@ body {
 .image {
     display: flex;
     justify-content: center;
+    height: 140px;
 }
 
 #profile-photo {
