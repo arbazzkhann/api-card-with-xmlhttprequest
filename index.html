@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <title>API Card Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
     <div class="container">
-        <div class="box">
-            <div class="image">
-                <img id="profile-image" src="https://randomuser.me/api/portraits/men/4.jpg" alt="IMAGE NOT FOUND">
-            </div>
+      <h1>RANDOM USER API FETCHING</h1>
+      <div class="box">
+        <div class="image">
+            <img id="profile-photo"
+                 alt="IMAGE NOT FOUND"/>
         </div>
+        <div class="content">
+            <form class="form">
+              <label>First Name : <span id="first-name"></span></label>
+              <label>Last Name : <span id="last-name"></span></label>
+              <label>Username : <span id="username"></span></label>
+              <label>Gender : <span id="gender"></span></label>
+              <label>Phone : <span id="phone"></span></label>
+              <label>Email : <span id="email"></span></label>
+              <label>Country : <span id="country"></span></label>
+              <label>Post Code : <span id="postcode"></span></label>
+            </form>
+        </div>
+      </div>
     </div>
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>

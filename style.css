@@ -1,20 +1,22 @@
 body {
     background-color: #212121;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .box {
     background-color: rgb(172, 164, 164);
-    height: 80%;
-    width: 60%;
+    height: 450px;
+    width: 350px;
     border-radius: 15px;
 }
 
@@ -23,7 +25,16 @@ body {
     justify-content: center;
 }
 
-#profile-image {
-    border-radius: 12px;
+#profile-photo {
+    border-radius: 15px;
     margin: 7px
+}
+
+.form {
+    height: 300px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
 }
